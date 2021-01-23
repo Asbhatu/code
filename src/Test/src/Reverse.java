@@ -1,5 +1,5 @@
 
-public class Test {
+public class Reverse {
 
 	public static byte [] getReverse(byte[] str){
 		byte[] result = new byte [str.length];
