@@ -10,12 +10,12 @@ public class Reverse {
 		return 	result;
 			
 	}
-
+	
 	public static void main(String[] args) {
 		String a= "Test reverse";
 		
 		byte[] str= a.getBytes();
-		byte[] result = new byte [str.length];
+		//byte[] result = new byte [str.length];
 		
 		System.out.println(new String(getReverse(str)));		
 		
